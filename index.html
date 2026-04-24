@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Obitura — modern solutions for modern problems." />
+  <title>Obitura</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+</head>
+<body>
+
+  <!-- ======= NAV ======= -->
+  <header class="header" id="header">
+    <nav class="nav container">
+      <a href="#" class="nav__logo">Obitura</a>
+
+      <ul class="nav__list" id="nav-list">
+        <li><a href="#features" class="nav__link">Features</a></li>
+        <li><a href="#about" class="nav__link">About</a></li>
+        <li><a href="#contact" class="nav__link">Contact</a></li>
+        <li><a href="#contact" class="btn btn--sm nav__cta">Get Started</a></li>
+      </ul>
+
+      <button class="nav__toggle" id="nav-toggle" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ======= HERO ======= -->
+    <section class="hero" id="home">
+      <div class="container hero__inner">
+        <div class="hero__text">
+          <span class="badge">New&nbsp;&nbsp;✦&nbsp;&nbsp;We just launched</span>
+          <h1 class="hero__title">Built for people<br />who move fast.</h1>
+          <p class="hero__sub">
+            Obitura gives you the tools to ship, scale, and succeed —
+            without the headaches that slow you down.
+          </p>
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Start for free</a>
+            <a href="#features" class="btn btn--ghost">See how it works ↓</a>
+          </div>
+        </div>
+        <div class="hero__visual" aria-hidden="true">
+          <div class="card-stack">
+            <div class="card card--1">
+              <div class="card__dot card__dot--green"></div>
+              <span>All systems operational</span>
+            </div>
+            <div class="card card--2">
+              <p class="card__label">Revenue</p>
+              <p class="card__value">$84,320</p>
+              <p class="card__trend">↑ 24% this week</p>
+            </div>
+            <div class="card card--3">
+              <p class="card__label">Active users</p>
+              <div class="avatar-row">
+                <span class="avatar">A</span>
+                <span class="avatar">B</span>
+                <span class="avatar">C</span>
+                <span class="avatar avatar--more">+9</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= LOGOS ======= -->
+    <section class="logos">
+      <div class="container">
+        <p class="logos__label">Trusted by teams everywhere</p>
+        <div class="logos__row">
+          <span class="logo-item">Acme&nbsp;Co</span>
+          <span class="logo-item">Vercel</span>
+          <span class="logo-item">Linear</span>
+          <span class="logo-item">Notion</span>
+          <span class="logo-item">Figma</span>
+          <span class="logo-item">Stripe</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= FEATURES ======= -->
+    <section class="features section" id="features">
+      <div class="container">
+        <div class="section__header">
+          <span class="badge">Features</span>
+          <h2 class="section__title">Everything you need, nothing you don't.</h2>
+          <p class="section__sub">
+            A focused set of tools designed to remove friction from your workflow
+            so you can focus on what actually matters.
+          </p>
+        </div>
+
+        <div class="features__grid">
+
+          <div class="feature-card">
+            <div class="feature-card__icon">⚡</div>
+            <h3>Lightning fast</h3>
+            <p>Built on a modern stack optimised for speed. Pages load in milliseconds, not seconds.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🔒</div>
+            <h3>Secure by default</h3>
+            <p>End-to-end encryption, SOC 2 compliance, and automatic security updates — all included.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">📊</div>
+            <h3>Real-time analytics</h3>
+            <p>See what's happening right now with dashboards that update live, no refresh required.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🔗</div>
+            <h3>Integrations</h3>
+            <p>Connect your existing tools in minutes. We support 100+ integrations out of the box.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🌍</div>
+            <h3>Global scale</h3>
+            <p>Deployed across 30+ regions worldwide. Low latency wherever your users are.</p>
+          </div>
+
+          <div class="feature-card">
+            <div class="feature-card__icon">🛠️</div>
+            <h3>Developer friendly</h3>
+            <p>A clean REST API, webhooks, and a powerful CLI. Build exactly what you need.</p>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= ABOUT ======= -->
+    <section class="about section" id="about">
+      <div class="container about__inner">
+        <div class="about__visual" aria-hidden="true">
+          <div class="stat-block">
+            <p class="stat-block__number">10k+</p>
+            <p class="stat-block__label">Active users</p>
+          </div>
+          <div class="stat-block">
+            <p class="stat-block__number">99.9%</p>
+            <p class="stat-block__label">Uptime SLA</p>
+          </div>
+          <div class="stat-block">
+            <p class="stat-block__number">&lt;50 ms</p>
+            <p class="stat-block__label">Avg. response time</p>
+          </div>
+        </div>
+        <div class="about__text">
+          <span class="badge">About us</span>
+          <h2 class="section__title">We started Obitura to solve our own problem.</h2>
+          <p>
+            We were tired of stitching together a dozen different tools just to ship a
+            product. Obitura brings together everything a modern team needs — from
+            infrastructure to insights — in a single, cohesive platform.
+          </p>
+          <p>
+            We're a small, focused team that believes software should be a pleasure to use.
+            That's our north star, and it guides every decision we make.
+          </p>
+          <a href="#contact" class="btn btn--primary">Work with us</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= TESTIMONIALS ======= -->
+    <section class="testimonials section">
+      <div class="container">
+        <div class="section__header">
+          <span class="badge">Testimonials</span>
+          <h2 class="section__title">People love using Obitura.</h2>
+        </div>
+        <div class="testimonials__grid">
+
+          <div class="testimonial-card">
+            <p class="testimonial-card__quote">"Obitura cut our deploy time in half. I genuinely can't imagine going back to our old setup."</p>
+            <div class="testimonial-card__author">
+              <span class="avatar">S</span>
+              <div>
+                <p class="testimonial-card__name">Sarah K.</p>
+                <p class="testimonial-card__role">CTO, Buildworks</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-card__quote">"The analytics dashboard alone is worth the price. We finally know where our users are dropping off."</p>
+            <div class="testimonial-card__author">
+              <span class="avatar">M</span>
+              <div>
+                <p class="testimonial-card__name">Marcus T.</p>
+                <p class="testimonial-card__role">Product Lead, Patchwork</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="testimonial-card">
+            <p class="testimonial-card__quote">"Onboarding took 20 minutes. The docs are actually good — that alone sets Obitura apart."</p>
+            <div class="testimonial-card__author">
+              <span class="avatar">J</span>
+              <div>
+                <p class="testimonial-card__name">Jamie L.</p>
+                <p class="testimonial-card__role">Solo founder</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ======= CONTACT ======= -->
+    <section class="contact section" id="contact">
+      <div class="container contact__inner">
+        <div class="contact__text">
+          <span class="badge">Contact</span>
+          <h2 class="section__title">Let's build something great together.</h2>
+          <p>Whether you have a question, want a demo, or are ready to sign up — drop us a message and we'll get back to you within one business day.</p>
+          <ul class="contact__details">
+            <li>✉️ &nbsp;<a href="mailto:hello@obitura.com">hello@obitura.com</a></li>
+          </ul>
+        </div>
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" placeholder="Your name" required />
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="you@example.com" required />
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us what you need…" required></textarea>
+          </div>
+          <button type="submit" class="btn btn--primary btn--full">Send message</button>
+          <p class="form__status" id="form-status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <a href="#" class="nav__logo">Obitura</a>
+      <p class="footer__copy">&copy; <span id="year"></span> Obitura. All rights reserved.</p>
+      <ul class="footer__links">
+        <li><a href="#features">Features</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>
