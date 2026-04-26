@@ -1,0 +1,8 @@
+{
+  "name": "obitura",
+  "version": "1.0.0",
+  "description": "Sacred words for sacred lives - AI-crafted obituaries",
+  "scripts": {
+    "start": "npx serve ."
+  }
+}
